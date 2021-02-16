@@ -151,6 +151,11 @@ input[type="email"] {
   border: 1px solid #000;
   margin-top: 30px;
   position: relative;
+
+  background-repeat: no-repeat;
+  background-image: url("../images/bg.jpg");
+  background-position: 100px 200px;
+  background-position: center center;
 }
 
 .p-box h1 {
@@ -164,3 +169,26 @@ input[type="email"] {
   bottom: 40px;
   right: 250px;
 }
+
+.fix-me {
+  position: fixed;
+  top: 400px;
+  left: 20px;
+}
+
+.my-list li:first-child {
+  background: red;
+}
+
+.my-list li:last-child {
+  background blue;
+}
+
+.my-list li:nth-child(5){
+  background: yellow; 
+}
+
+.my-list li:nth-child(even){
+  background: grey 
+}
+  
